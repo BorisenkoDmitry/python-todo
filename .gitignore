@@ -1,0 +1,42 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Скомпилированные файлы и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Кэши инструментов
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.cache/
+
+# Покрытие тестами
+.coverage
+.coverage.*
+htmlcov/
+
+# Результаты сборки Python-пакета
+build/
+dist/
+*.egg-info/
+
+# Секреты и локальные переменные окружения
+.env
+.env.*
+!.env.example
+!.env.docker.example
+
+# Логи
+*.log
+
+# Настройки редакторов
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
